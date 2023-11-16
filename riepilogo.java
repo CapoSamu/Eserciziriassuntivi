@@ -78,9 +78,60 @@ public class riepilogo {
 
         System.out.println("fine esercizio");
 
+        /*
+        Calcolatore di fattoriale:
+        Calcola e stampa il fattoriale di un numero inserito dall'utente.
+        */
+
+
+        System.err.println(fattoriale(3));
+
+        System.out.println("fine esercizio");
+
+        /*
+         Verifica numero primo:
+        Scrivi un programma che verifichi se un numero inserito dall'utente è primo
+        */
+
 
 
     }
+
+
+     
+        /*
+        Calcolatore di potenze:
+        Scrivi un programma che calcoli e stampi le prime 5 potenze di un numero inserito dall'utente.
+         */
+
+
+  
+
+
+
+
+        /*
+        Calcolatore di fattoriale:
+        Calcola e stampa il fattoriale di un numero inserito dall'utente.
+        */
+
+    public static int fattoriale(int x) {
+        if (x>=0) {  //calcoliamofa il calcolo
+          int valore = 1;
+          for(int i = 1; i <= x; i++){
+              valore *=i;
+          }
+              return valore;
+        }else{       //in caso di errore, se è un numero negativo non posso farlo gli do un: 
+          return -1;
+        }
+
+          
+      }
+
+
+    }
+
     
-}
+
 
